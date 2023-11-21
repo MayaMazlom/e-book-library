@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(207, 201, 208);
+}
+
+ul li a{
+    padding: 5px;
+    font-size: 2em;
+    border: 1p;
+    text-align: center;
+}
+
+li:hover {
+    margin: 4px;
+    background-color: rgb(77, 140, 140);
+}
+
+.address_1 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    width: 99%;
+    text-align: center;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.first .cart {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(232, 226, 234);
+}
+
+.cart img {
+    margin: 2px;
+    width: 80%;
+}
+
+button {
+    font-size: 2em;
+}
+
+.cart h4{
+    color: green;
+}
+
+.footer {
+    color: white;
+    background-color: #626060;
+    padding: 10px;
+    text-align: center;
+}
+
+#hh1,#hh2,#hh3,#hh4,#hh5,#hh6,#hh7,#hh8,#hh9 {
+    display: none;
+}
+
+#btn_n {
+    display: none;
+}
+
+@media (max-width : 700px) {
+    .first {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #btn_n  {
+        display: block;
+    }
+    #cuid {
+        display: none;
+    }
+}
+
